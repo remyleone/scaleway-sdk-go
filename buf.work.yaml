@@ -1,0 +1,4 @@
+version: v1
+directories:
+  # protobuf is checked out from protobuf/protobuf by the CI
+  - protobuf
