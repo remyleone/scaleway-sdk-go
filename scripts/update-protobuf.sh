@@ -29,7 +29,8 @@ marketplace/v1
 rdb/v1
 registry/v1
 vpc/v1
-vpcgw/v1beta1"
+vpcgw/v1beta1
+vpcgw/v1"
 
 set -x
 
