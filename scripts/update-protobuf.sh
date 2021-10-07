@@ -13,24 +13,25 @@ git config --global user.name 'scaleway-bot'
 git config --global user.email 'github@scaleway.com'
 
 SDK_PRODUCTS="
-instance/v1
 account/v2alpha1
 applesilicon/v1alpha1
+baremetal/v1
+baremetal/v1alpha1
+container/v1beta1
 domain/v2alpha2
 domain/v2beta1
-baremetal/v1alpha1
-baremetal/v1
+instance/v1
 iot/v1
+k8s/v1
 k8s/v1beta3
 k8s/v1beta4
-k8s/v1
 lb/v1
 marketplace/v1
 rdb/v1
 registry/v1
 vpc/v1
-vpcgw/v1beta1
-vpcgw/v1"
+vpcgw/v1
+vpcgw/v1beta1"
 
 set -x
 
